@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    background-color: rgb(131, 144, 76);
+    padding: 20px;
+    justify-content: space-between;
+    
+    gap: 15px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.body1{
+    display: flex;
+    padding: 50px;
+    flex: 1;
+    background-color: rgb(173, 196, 74);
+    justify-items: space-evenly;
+}
+
+.title1{
+    font-size: 28px;
+    font-weight: bold;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px;
+    flex-grow: 1;
+
+}
+
+.medicine{
+    
+}
+
+.body2{
+    background-color: aliceblue;
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    
+    
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex: 1 0 33%;
+    
+}
+.text2{
+    flex-basis: 100;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex: 1 0 33%;
+    
+}
+
+
+.body3{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+
+}
+.text3{ 
+    display: flex;
+    width: 500px;
+    font-size: x-large;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.body4{
+    display: flex;
+    justify-content: center;
+
+}
+.ad{
+    display: flex;
+    background-color: rgb(39, 109, 201);
+    padding: 25px;
+    border-radius: 10px;
+    width: 600px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.adhead{
+    color: aliceblue;
+    font-weight: bold;
+}
+.addesc{
+    color: aliceblue;
+}
+.signup{
+    display: flex;
+    border-color: aliceblue;
+    background-color: rgb(39, 109, 201) ;
+    border-radius: 25px;
+    width: 100px;
+    
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
